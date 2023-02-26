@@ -135,7 +135,6 @@ def kinetic(molecule):
 
 # Get basis set from https://www.basissetexchange.org/basis
 
-
 # STO-3G basis for 1s orbital on Hydrogen
 # Create the primitive gaussians for Hydrogen 1 according the the class primitive_gaussian
 H1_pg1a = primitive_gaussian(
@@ -200,7 +199,6 @@ H2_pg1c = primitive_gaussian(
 # Hydrogen 2s orbital
 H2_pg2a = primitive_gaussian(
     0.1612777588E+00, 1.00000000000000, [1.4, 0.0, 0.0], 0, 0, 0)
-
 
 # 1s basis functions for Hydrogen 1 is a list of 3 primitive gaussians
 H1_1s = [H1_pg1a, H1_pg1b, H1_pg1c]
